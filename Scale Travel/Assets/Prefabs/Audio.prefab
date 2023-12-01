@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3846867777147053940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8455395786521442214}
+  - component: {fileID: 8159994849724542401}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8455395786521442214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3846867777147053940}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.7217598, y: 21.5747, z: -7.7125583}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8159994849724542401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3846867777147053940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da9ff051abb92904c83f596ef7e74584, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: mainTheme
+    clip: {fileID: 8300000, guid: 8d17dd45cf734bc4fbae131531bc88a2, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: baseFire
+    clip: {fileID: 8300000, guid: acaea7118216f5445a7ed8bc4d06629b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: boostFire
+    clip: {fileID: 8300000, guid: baff0d48476095342b80f06c598d3c91, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: explosion
+    clip: {fileID: 8300000, guid: 0d0242847dde1a0418d93b4449e8d89c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: collect
+    clip: {fileID: 8300000, guid: c5145279936b2d84592a50d10706119a, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: menuTheme
+    clip: {fileID: 8300000, guid: c8d7c81e825d750428c5bdbf7244ee72, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: allballs
+    clip: {fileID: 8300000, guid: 812da9e39c995434db81e26dfe91a9cf, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: base
+    clip: {fileID: 8300000, guid: 5608510561544a04f987c07ecc644e09, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: select
+    clip: {fileID: 8300000, guid: 69822e5e812f0ce469bf365a6492b8a9, type: 3}
+    volume: 0.9
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: click
+    clip: {fileID: 8300000, guid: 279ec0123d338b34e97f71c77da08300, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: bad_click
+    clip: {fileID: 8300000, guid: d89b4affe69d55e4ba8444fae30b14c1, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: firework
+    clip: {fileID: 8300000, guid: a89e9791b3a39a84481573fe3f94aa16, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  globalVolume: 0.8
